@@ -1,10 +1,14 @@
 {
   "parser": "babel-eslint",
-  "extends": ["prettier"],
+  "extends": ["prettier", "@atolye15/eslint-config-base"],
   "plugins": ["prettier"],
   "rules": {
-    "prefer-destructuring": ["error", {"object": true, "array": true}],
+    "prefer-destructuring": ["error", { "object": true, "array": true }],
     "no-var": ["error"],
     "prettier/prettier": ["error"]
-  }
+  },
+  "env": {
+    "browser": true
+  },
+  "globals": { "fetch": false }
 }
