@@ -7,3 +7,12 @@
 
 ### Not:
 Istekler icin mockapi kullaniyoruz. Hesap acip kendi mock api urllerinizi kullanmaniz gerekiyor. Derste kullandigimiz resource u hesap acip linke tiklayarak clonelayabilirsiniz : https://mockapi.io/clone/6032450ea223790017aced0b
+
+
+---
+### Diagram
+![SetupIndex](week5-diagram.png)
+
+- Derlenmiş kaynakların canlı görünümü : [https://81-javascript-bootcamp.github.io/5hafta-odev-hakkisabah/dist/index.html](https://81-javascript-bootcamp.github.io/5hafta-odev-hakkisabah/dist/index.html)
+- Kaynak dosyalar derlenerek dist klasörü ile birlikte dahil edilmiştir.
+- Ek olarak Atolye 15 ``"@atolye15/eslint-config-base"`` paketi ve ``bağımlılıkları`` entegre edilmiştir.
